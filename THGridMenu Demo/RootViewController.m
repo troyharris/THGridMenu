@@ -15,6 +15,7 @@
 @end
 
 @implementation RootViewController
+@synthesize menuView = _menuView;
 
 #pragma mark - Methods you must add to your VC
 
