@@ -21,6 +21,11 @@
 		2A2A8F21174705E700D00631 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A2A8F02174705E600D00631 /* Foundation.framework */; };
 		2A2A8F29174705E700D00631 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A2A8F27174705E700D00631 /* InfoPlist.strings */; };
 		2A2A8F2C174705E700D00631 /* THGridMenu_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A8F2B174705E700D00631 /* THGridMenu_DemoTests.m */; };
+		2A2A8F3A1747060F00D00631 /* THGridMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A8F371747060F00D00631 /* THGridMenu.m */; };
+		2A2A8F3B1747060F00D00631 /* THGridMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A8F391747060F00D00631 /* THGridMenuItem.m */; };
+		2A2A8F3E174709B600D00631 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A8F3D174709B600D00631 /* RootViewController.m */; };
+		2A2A8F4017470BF500D00631 /* books.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A2A8F3F17470BF500D00631 /* books.plist */; };
+		2A2A8F431747136600D00631 /* THGridMenuItem+BookItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A8F421747136600D00631 /* THGridMenuItem+BookItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,15 @@
 		2A2A8F28174705E700D00631 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2A2A8F2A174705E700D00631 /* THGridMenu_DemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THGridMenu_DemoTests.h; sourceTree = "<group>"; };
 		2A2A8F2B174705E700D00631 /* THGridMenu_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THGridMenu_DemoTests.m; sourceTree = "<group>"; };
+		2A2A8F361747060F00D00631 /* THGridMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THGridMenu.h; sourceTree = "<group>"; };
+		2A2A8F371747060F00D00631 /* THGridMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THGridMenu.m; sourceTree = "<group>"; };
+		2A2A8F381747060F00D00631 /* THGridMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THGridMenuItem.h; sourceTree = "<group>"; };
+		2A2A8F391747060F00D00631 /* THGridMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THGridMenuItem.m; sourceTree = "<group>"; };
+		2A2A8F3C174709B600D00631 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		2A2A8F3D174709B600D00631 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		2A2A8F3F17470BF500D00631 /* books.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = books.plist; sourceTree = "<group>"; };
+		2A2A8F411747136600D00631 /* THGridMenuItem+BookItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "THGridMenuItem+BookItem.h"; sourceTree = "<group>"; };
+		2A2A8F421747136600D00631 /* THGridMenuItem+BookItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "THGridMenuItem+BookItem.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +96,7 @@
 		2A2A8EF4174705E600D00631 = {
 			isa = PBXGroup;
 			children = (
+				2A2A8F35174705F400D00631 /* THGridMenu */,
 				2A2A8F06174705E600D00631 /* THGridMenu Demo */,
 				2A2A8F24174705E700D00631 /* THGridMenu DemoTests */,
 				2A2A8EFF174705E600D00631 /* Frameworks */,
@@ -115,6 +130,10 @@
 				2A2A8F0F174705E600D00631 /* AppDelegate.h */,
 				2A2A8F10174705E600D00631 /* AppDelegate.m */,
 				2A2A8F07174705E600D00631 /* Supporting Files */,
+				2A2A8F3C174709B600D00631 /* RootViewController.h */,
+				2A2A8F3D174709B600D00631 /* RootViewController.m */,
+				2A2A8F411747136600D00631 /* THGridMenuItem+BookItem.h */,
+				2A2A8F421747136600D00631 /* THGridMenuItem+BookItem.m */,
 			);
 			path = "THGridMenu Demo";
 			sourceTree = "<group>";
@@ -129,6 +148,7 @@
 				2A2A8F12174705E600D00631 /* Default.png */,
 				2A2A8F14174705E600D00631 /* Default@2x.png */,
 				2A2A8F16174705E600D00631 /* Default-568h@2x.png */,
+				2A2A8F3F17470BF500D00631 /* books.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -150,6 +170,17 @@
 				2A2A8F27174705E700D00631 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A2A8F35174705F400D00631 /* THGridMenu */ = {
+			isa = PBXGroup;
+			children = (
+				2A2A8F361747060F00D00631 /* THGridMenu.h */,
+				2A2A8F371747060F00D00631 /* THGridMenu.m */,
+				2A2A8F381747060F00D00631 /* THGridMenuItem.h */,
+				2A2A8F391747060F00D00631 /* THGridMenuItem.m */,
+			);
+			name = THGridMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +258,7 @@
 				2A2A8F13174705E600D00631 /* Default.png in Resources */,
 				2A2A8F15174705E600D00631 /* Default@2x.png in Resources */,
 				2A2A8F17174705E600D00631 /* Default-568h@2x.png in Resources */,
+				2A2A8F4017470BF500D00631 /* books.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +295,10 @@
 			files = (
 				2A2A8F0D174705E600D00631 /* main.m in Sources */,
 				2A2A8F11174705E600D00631 /* AppDelegate.m in Sources */,
+				2A2A8F3A1747060F00D00631 /* THGridMenu.m in Sources */,
+				2A2A8F3B1747060F00D00631 /* THGridMenuItem.m in Sources */,
+				2A2A8F3E174709B600D00631 /* RootViewController.m in Sources */,
+				2A2A8F431747136600D00631 /* THGridMenuItem+BookItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
