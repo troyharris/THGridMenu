@@ -1,9 +1,8 @@
 //
 //  THGridMenu.h
-//  Paperback Writer
+//  THGridMenu
 //
 //  Created by Troy HARRIS on 5/12/13.
-//  Copyright (c) 2013 Lone Yeti. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
