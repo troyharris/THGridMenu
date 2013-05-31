@@ -105,9 +105,9 @@
         _columnInc = 0;
         _yOffset = _yOffset + _rowHeight + _marginSize;
         _xOffset = _gutterSize;
-        self.contentSize = CGSizeMake(self.contentSize.width, _yOffset);
     } else {
         _xOffset = _xOffset + _marginSize + itemWidth;
+        self.contentSize = CGSizeMake(self.contentSize.width, _yOffset + _marginSize + _rowHeight);
     }
     return item;
 }
