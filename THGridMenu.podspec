@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "THGridMenu"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A fluid grid menu layout system that adjusts item width with device rotation."
   s.description  = <<-DESC
 			THGridMenu is a UIView that is initialized with number of columns per row, gutter size, margin and row height. You can call an instance method `createMenuItem` that will return a THGridMenuItem at the right origin and width for the next view. THGridMenuItem is a subclass of UIControl, which itself is a subclass of UIView, so you can put anything you'd like inside.
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.screenshots  = "loneyeti.com/github-images/THGridMenu1.png", "loneyeti.com/github-images/THGridMenu1.png"
   s.license      = 'MIT'
   s.author       = { "Troy Harris" => "troy.harris@djt-tech.com" }
-  s.source       = { :git => "https://github.com/troyharris/THGridMenu.git", :tag => "0.0.3" }
+  s.source       = { :git => "https://github.com/troyharris/THGridMenu.git", :tag => "0.0.4" }
   s.platform     = :ios, '5.0'
   s.source_files = 'THGridMenu.{h,m}', 'THGridMenuItem.{h,m}'
   s.requires_arc = true
